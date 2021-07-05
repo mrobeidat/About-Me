@@ -25,6 +25,7 @@ else if (guess === 'no' || guess === 'n') {
     alert('please enter yes or no !' + '☹️');
 
 
+    guess = guess.toLowerCase();
 
 guess = prompt('Are you still studying ?');
 
@@ -41,6 +42,7 @@ else if (guess === 'no' || guess === 'n') {
     alert('please enter yes or no !' + '☹️');
 
 
+    guess = guess.toLowerCase();
 
 guess = prompt('Are you curious about knowing who i am ?');
 
@@ -59,6 +61,7 @@ else if (guess === 'no' || guess === 'n') {
 
 
 
+    guess = guess.toLowerCase();
 
 
 guess = prompt('If you would be in my shoe would you do this curiosity test to your visitors ?');
@@ -76,6 +79,7 @@ else if (guess === 'no' || guess === 'n') {
     alert('please enter yes or no !' + '☹️');
 
 
+    guess = guess.toLowerCase();
 
 
 guess = prompt('did you like my game?' + '🤔');
