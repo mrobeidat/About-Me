@@ -9,50 +9,36 @@ alert('Nice to see you here ' + username);
 
 
 
-let guess = prompt('Could you guess who i am ?');
-
+let guess = prompt('Could you guess my Full name?');
 guess = guess.toLowerCase();
 
+
 if (guess === 'yes' || guess === 'y') {
-    console.log(guess);
+   // console.log(guess);
     alert('smart person');
 }
 else if (guess === 'no' || guess === 'n') {
-    console.log(guess);
+  //  console.log(guess);
     alert('try to guess');
-
 } else
     alert('please enter yes or no !' + '☹️');
 
 
-    guess = guess.toLowerCase();
 
-guess = prompt('Are you still studying ?');
+
+
+
+
+guess = prompt('can You guess how old i am?');
+guess = guess.toLowerCase();
 
 
 if (guess === 'yes' || guess === 'y') {
-    console.log(guess);
-    alert('That\'s cool ' + username);
+    //console.log(guess);
+    alert('Great !' + username);
 }
 else if (guess === 'no' || guess === 'n') {
-    console.log(guess);
-    alert('It\'s fine ' + username);
-
-} else
-    alert('please enter yes or no !' + '☹️');
-
-
-    guess = guess.toLowerCase();
-
-guess = prompt('Are you curious about knowing who i am ?');
-
-if (guess === 'yes' || guess === 'y') {
-    console.log(guess);
-    alert('Of course i know then why you here if not ');
-
-}
-else if (guess === 'no' || guess === 'n') {
-    console.log(guess);
+   / console.log(guess);
     alert('It\'s fine ' + username);
 
 } else
@@ -61,39 +47,74 @@ else if (guess === 'no' || guess === 'n') {
 
 
 
-    guess = guess.toLowerCase();
 
 
-guess = prompt('If you would be in my shoe would you do this curiosity test to your visitors ?');
+
+
+guess = prompt('Do you think i have a special skills?');
+guess = guess.toLowerCase();
+
 
 if (guess === 'yes' || guess === 'y') {
-    console.log(guess);
-    alert('you\'re my favorite person');
+   // console.log(guess);
+    alert('That\'s right');
 
 }
 else if (guess === 'no' || guess === 'n') {
-    console.log(guess);
-    alert('you don\'t look like me ' + username);
+   // console.log(guess);
+    alert('Wrong answer' + username);
 
 } else
     alert('please enter yes or no !' + '☹️');
 
 
-    guess = guess.toLowerCase();
 
 
-guess = prompt('did you like my game?' + '🤔');
+
+
+
+
+guess = prompt('do you think i\'m a gymer?');
+guess = guess.toLowerCase();
+
 
 if (guess === 'yes' || guess === 'y') {
-    console.log(guess);
-    alert('Haha Yes that\'s what i thought' + '😉');
+   // console.log(guess);
+    alert('You are very good at this');
 
 }
 else if (guess === 'no' || guess === 'n') {
-    console.log(guess);
-    alert('You chose to continue, I\'m not responsible ' + '🤷‍♂️');
+  //  console.log(guess);
+    alert('Wrong guessing + username');
 
 } else
     alert('please enter yes or no !' + '☹️');
+
+
+    
+
+
+
+
+
+
+guess = prompt('Am i a sociable person?' + '🤔');
+
+guess = guess.toLowerCase();
+
+
+if (guess === 'yes' || guess === 'y') {
+    //console.log(guess);
+    alert('Yes That\'s right !' + '😉');
+
+}
+else if (guess === 'no' || guess === 'n') {
+    //console.log(guess);
+    alert('Wrong answer' + '🤷‍♂️');
+
+} else
+    alert('please enter yes or no !' + '☹️');
+
+
 
 alert('Welcome to my website again Mr/Mss. ' + username + '😄');
