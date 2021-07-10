@@ -9,23 +9,27 @@ alert('Nice to see you here ' + username);
 
 let score=0;
 
-let guess = prompt('is my middle name hasan?');
-guess = guess.toLowerCase();
+
+function q1(){
 
 
-if (guess === 'yes' || guess === 'y') {
-    console.log(guess);
-    alert('smart person');
-    score+=1;
+    let guess = prompt('is my middle name hasan?');
+    guess = guess.toLowerCase();
+    
+    
+    if (guess === 'yes' || guess === 'y') {
+        console.log(guess);
+        alert('smart person');
+        score+=1;
+    }
+    else if (guess === 'no' || guess === 'n') {
+        console.log(guess);
+        alert('try to guess');
+    } else {
+        alert('please enter yes or no !' + '☹️');
+    }
+
 }
-else if (guess === 'no' || guess === 'n') {
-    console.log(guess);
-    alert('try to guess');
-} else {
-    alert('please enter yes or no !' + '☹️');
-}
-
-
 
 
 
