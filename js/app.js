@@ -109,7 +109,7 @@ else if (guess === 'no' || guess === 'n') {
 
 
 
-
+function q5(){
 
 guess = prompt('Am i an anti sociable person?' + '🤔');
 
@@ -130,7 +130,7 @@ else if (guess === 'no' || guess === 'n') {
     alert('please enter yes or no !' + '☹️');
 }
 
-
+}
 
 
 // question6
