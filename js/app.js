@@ -85,7 +85,7 @@ else if (guess === 'no' || guess === 'n') {
 }
 
 
-
+function q4(){
 
 guess = prompt('do you think i\'m a gymer?');
 guess = guess.toLowerCase();
@@ -104,7 +104,7 @@ else if (guess === 'no' || guess === 'n') {
     alert('please enter yes or no !' + '☹️');
 }
 
-
+}
 
 
 
