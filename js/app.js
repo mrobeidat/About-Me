@@ -62,7 +62,7 @@ function q2 (){
 
 
 
-
+function q3(){
 
 guess = prompt('Do you think i have a special skills?');
 guess = guess.toLowerCase();
@@ -82,7 +82,7 @@ else if (guess === 'no' || guess === 'n') {
 }
 
 
-
+}
 
 
 
