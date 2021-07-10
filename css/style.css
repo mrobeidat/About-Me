@@ -1,8 +1,14 @@
 *
 {
-padding: 2px;
-margin: 2px;
+padding:1px;
+margin: 1px;
 }
+
+
+
+
+
+
 
 img {
     width: 100px;
@@ -18,7 +24,7 @@ img {
   p
   {
 
-    margin-bottom: 19px;
+    margin-bottom: 50px;
 
   }
 
@@ -39,7 +45,8 @@ transition: transform 0.5;
 background: rgba(1, 31, 29, 0.342);
 text-align: center;
 transition: transform 0.5s;
-
+position: sticky;
+top: 0%;
 }
 .menu-bar ul
 {
