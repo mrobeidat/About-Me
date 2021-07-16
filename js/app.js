@@ -31,6 +31,7 @@ function q1() {
 
 }
 
+// q1();
 console.log(q1);
 
 
@@ -60,6 +61,8 @@ function q2() {
 
 }
 
+
+// q2();
 console.log(q2);
 
 
@@ -84,6 +87,8 @@ function q3() {
 
 
 }
+
+// q3();
 console.log(q3);
 
 
@@ -107,6 +112,9 @@ function q4() {
     }
 
 }
+
+
+// q4();
 console.log(q4);
 
 
@@ -134,6 +142,9 @@ function q5() {
     }
 
 }
+
+
+// q5();
 console.log(q5);
 
 
@@ -164,43 +175,48 @@ function q6() {
 
 }
 
+
+
+// q6();
 console.log(q6);
 
 
 
 // question7
-function q7 (){
+function q7() {
 
-let car = ['mercedes', 'tesla', 'bmw', 'gmc'];
-// console.log(car.length);
-// car[0]
+    let car = ['mercedes', 'tesla', 'bmw', 'gmc'];
+    // console.log(car.length);
+    // car[0]
 
-let answeredCorrectly = false;
+    let answeredCorrectly = false;
 
-// bigLoop:for (let i = 1; i <= 6; i++) {
-for (let i = 1; i <= 6; i++) {
-    let guessCar = prompt('what is my fav car');
-    for (let j = 0; j < car.length; j++) {
+    // bigLoop:for (let i = 1; i <= 6; i++) {
+    for (let i = 1; i <= 6; i++) {
+        let guessCar = prompt('what is my fav car');
+        for (let j = 0; j < car.length; j++) {
 
-        if (guessCar == car[j]) {
-            alert('correct answer');
-            score += 1;
-            // 
-            answeredCorrectly = true;
-            // break bigLoop
+            if (guessCar == car[j]) {
+                alert('correct answer');
+                score += 1;
+                // 
+                answeredCorrectly = true;
+                // break bigLoop
+
+            }
 
         }
+        if (answeredCorrectly == true) {
+            break;
+        }
+        else {
 
-    }
-    if (answeredCorrectly == true) {
-        break;
-    }
-    else {
-
-        alert('try again');
+            alert('try again');
+        }
     }
 }
-}
+
+// q7();
 console.log(q7);
 
 alert('here are all the correct answers ' + car);
